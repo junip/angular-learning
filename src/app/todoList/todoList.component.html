@@ -1,0 +1,12 @@
+<div class="todo-list">
+  <ul class="search-result">
+    <li class="headers">
+      <div>Title</div>
+      <div>Checkbox</div>
+    </li>
+    <li *ngFor="let todo of avaiableTodos" >
+        <div>{{todo.title}} </div>
+        <div><input type="checkbox" value="{{todo.completed}}" /></div>
+    </li>
+  </ul>
+</div>
