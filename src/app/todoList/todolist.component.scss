@@ -1,0 +1,11 @@
+.todo-list {
+  width: 500px;
+  ul {
+    list-style-type: none;
+    li {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  
+}
